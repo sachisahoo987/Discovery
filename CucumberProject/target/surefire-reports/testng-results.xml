@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I open Chrome (PASSED : 5s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I go to discoveryURL (PASSED : 17s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on discoveryGo_xpath (PASSED : 11s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Navigation to the DiscoveryGO page should be success (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I scrollFull to recommendedSection_xpath (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on firstvideotile_xpath (PASSED : 11s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on addtofavouritesFromPage_xpath (PASSED : 14s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I navigate back to previous page (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on secondvideotile_xpath (PASSED : 13s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on secondaddtofavouritesFromPage_xpath (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I navigate back to previous page (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on menu_xpath (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I click on myvideos_xpath (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I scrollHalf to favouritefirstvideo_xpath (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Shark Week should be visible in myvideos favouritefirstvideo_xpath (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Serengeti should be visible in myvideos favouritesecondvideo_xpath (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="83294" started-at="2019-08-09T09:47:28Z" finished-at="2019-08-09T09:48:51Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.discovery.runner.MyTestngRunner@573f2bb1]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="My Tests" duration-ms="83294" started-at="2019-08-09T09:47:28Z" finished-at="2019-08-09T09:48:51Z">
+      <class name="com.discovery.runner.MyTestngRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.discovery.runner.MyTestngRunner@573f2bb1]" name="setUpClass" is-config="true" duration-ms="328" started-at="2019-08-09T09:47:28Z" finished-at="2019-08-09T09:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.discovery.runner.MyTestngRunner@573f2bb1]" name="runScenario" duration-ms="82637" started-at="2019-08-09T09:47:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-08-09T09:48:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Entering into DiscoveryGO"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Select videos from recommended videos and"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I open Chrome (PASSED : 5s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I go to discoveryURL (PASSED : 17s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on discoveryGo_xpath (PASSED : 11s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Navigation to the DiscoveryGO page should be success (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I scrollFull to recommendedSection_xpath (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on firstvideotile_xpath (PASSED : 11s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on addtofavouritesFromPage_xpath (PASSED : 14s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I navigate back to previous page (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on secondvideotile_xpath (PASSED : 13s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on secondaddtofavouritesFromPage_xpath (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I navigate back to previous page (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on menu_xpath (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I click on myvideos_xpath (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I scrollHalf to favouritefirstvideo_xpath (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Shark Week should be visible in myvideos favouritefirstvideo_xpath (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Serengeti should be visible in myvideos favouritesecondvideo_xpath (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.discovery.runner.MyTestngRunner@573f2bb1]" name="tearDownClass" is-config="true" duration-ms="141" started-at="2019-08-09T09:48:51Z" finished-at="2019-08-09T09:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.discovery.runner.MyTestngRunner -->
+    </test> <!-- My Tests -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

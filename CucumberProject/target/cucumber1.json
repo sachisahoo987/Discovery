@@ -1,0 +1,346 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 391180862,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Entering into DiscoveryGO",
+        "description": "",
+        "id": "select-videos-from-recommended-videos-and;entering-into-discoverygo;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1573974066,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4900582058,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I open Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 7
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13904794604,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I go to discoveryURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "discoveryURL",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8955855982,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on discoveryGo_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "discoveryGo_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24970073,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Navigation to the DiscoveryGO page should be success",
+            "match": {
+              "arguments": [
+                {
+                  "val": "success",
+                  "offset": 45
+                }
+              ],
+              "location": "ApplicationSteps.ValidateDiscoveryGoPage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110115951,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I scrollFull to recommendedSection_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "recommendedSection_xpath",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.scrollFull(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10988780068,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on firstvideotile_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firstvideotile_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13161041906,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on addtofavouritesFromPage_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addtofavouritesFromPage_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 443746551,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I navigate back to previous page",
+            "match": {
+              "location": "GenericSteps.navigateback()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13128481762,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on secondvideotile_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secondvideotile_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1485500392,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click on secondaddtofavouritesFromPage_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "secondaddtofavouritesFromPage_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1984032398,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I navigate back to previous page",
+            "match": {
+              "location": "GenericSteps.navigateback()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1817147710,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on menu_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "menu_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 706343264,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on myvideos_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "myvideos_xpath",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92740418,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I scrollHalf to favouritefirstvideo_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "favouritefirstvideo_xpath",
+                  "offset": 16
+                }
+              ],
+              "location": "GenericSteps.scrollHals(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1525093972,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Shark Weekdfgdgf should be visible in myvideos favouritefirstvideo_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shark Weekdfgdgf",
+                  "offset": 0
+                },
+                {
+                  "val": "favouritefirstvideo_xpath",
+                  "offset": 47
+                }
+              ],
+              "location": "ApplicationSteps.ValidateMyVideos(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1139915129,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Serengeti should be visible in myvideos favouritesecondvideo_xpath",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Serengeti",
+                  "offset": 0
+                },
+                {
+                  "val": "favouritesecondvideo_xpath",
+                  "offset": 40
+                }
+              ],
+              "location": "ApplicationSteps.ValidateMyVideos(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Favourites"
+          },
+          {
+            "name": "@Favourites"
+          }
+        ]
+      }
+    ],
+    "name": "Select videos from recommended videos and",
+    "description": "  add to favourites and then validate in my videos",
+    "id": "select-videos-from-recommended-videos-and",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/discovery/videos/Favourites.feature",
+    "tags": [
+      {
+        "name": "@Favourites",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

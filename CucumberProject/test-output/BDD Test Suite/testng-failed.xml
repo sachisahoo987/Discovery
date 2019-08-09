@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suite]">
+  <test thread-count="1" name="My Tests(failed)">
+    <classes>
+      <class name="com.discovery.runner.MyTestngRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.discovery.runner.MyTestngRunner -->
+    </classes>
+  </test> <!-- My Tests(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

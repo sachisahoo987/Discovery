@@ -1,0 +1,201 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 67571927099,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I open Mozilla",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mozilla",
+                  "offset": 7
+                }
+              ],
+              "location": "GenericSteps.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3589693462,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I go to loginURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "loginURL",
+                  "offset": 8
+                }
+              ],
+              "location": "GenericSteps.navigate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1936111070,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I Login inside application",
+            "match": {
+              "location": "ApplicationSteps.login(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ashishthakur1983",
+                  "pass@1234"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 723268004,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.before(Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Deleting a Portfolio",
+        "description": "",
+        "id": "title-of-your-feature;deleting-a-portfolio",
+        "after": [
+          {
+            "result": {
+              "duration": 765979806,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GenericSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47202032,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I wait for page to load",
+            "match": {
+              "location": "GenericSteps.waitForPageToLoad()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Port1234\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.13.0\u0027, revision: \u00272f0d292\u0027, time: \u00272018-06-25T15:24:21.231Z\u0027\nSystem info: host: \u0027DESKTOP-NM05SVP\u0027, ip: \u0027192.168.1.16\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_05\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)\r\n\tat com.qtpselenium.webdriver.WebConnector.select(WebConnector.java:106)\r\n\tat com.qtpselenium.steps.GenericSteps.select(GenericSteps.java:83)\r\n\tat ✽.I select Port1234 from portfolioSelection_id(D:/Whizdom-Trainings/Online Training Workspace/Recording_Dec17/CucumberProject/src/test/resources/com/qtpselenium/rediff/Portfolio.feature:41)\r\n",
+              "duration": 22231612092,
+              "status": "failed"
+            },
+            "line": 41,
+            "name": "I select Port1234 from portfolioSelection_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Port1234",
+                  "offset": 9
+                },
+                {
+                  "val": "portfolioSelection_id",
+                  "offset": 23
+                }
+              ],
+              "location": "GenericSteps.select(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "I wait for page to load",
+            "match": {
+              "location": "GenericSteps.waitForPageToLoad()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I click on deletePortfolio_id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "deletePortfolio_id",
+                  "offset": 11
+                }
+              ],
+              "location": "GenericSteps.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "I accept alert",
+            "match": {
+              "location": "GenericSteps.iAcceptAlert()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Portfolio"
+          },
+          {
+            "name": "@DeletePortFolio"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "D:/Whizdom-Trainings/Online Training Workspace/Recording_Dec17/CucumberProject/src/test/resources/com/qtpselenium/rediff/Portfolio.feature",
+    "tags": [
+      {
+        "name": "@Portfolio",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

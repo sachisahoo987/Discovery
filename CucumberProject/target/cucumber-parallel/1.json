@@ -1,0 +1,184 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 44,
+        "name": "Entering into DiscoveryGO",
+        "description": "",
+        "id": "select-videos-from-recommended-videos-and;entering-into-discoverygo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "I open Chrome",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I go to discoveryURL",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I click on discoveryGo_xpath",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "Navigation to the DiscoveryGO page should be success",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "I scrollFull to recommendedSection_xpath",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "I click on firstvideotile_xpath",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "I click on addtofavouritesFromPage_xpath",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "I navigate back to previous page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "I click on secondvideotile_xpath",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "I click on secondaddtofavouritesFromPage_xpath",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "I navigate back to previous page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "I click on menu_xpath",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37,
+            "name": "I click on myvideos_xpath",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 38,
+            "name": "I scrollHalf to favouritefirstvideo_xpath",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 39,
+            "name": "Shark Week should be visible in myvideos favouritefirstvideo_xpath",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "Serengeti should be visible in myvideos favouritesecondvideo_xpath",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Favourites"
+          },
+          {
+            "name": "@Favourites"
+          }
+        ]
+      }
+    ],
+    "name": "Select videos from recommended videos and",
+    "description": "  add to favourites and then validate in my videos",
+    "id": "select-videos-from-recommended-videos-and",
+    "keyword": "Feature",
+    "uri": "C:/Users/nec/Documents/sachi/Selenium_Code/code/Cucumber Framework/CucumberProject/src/test/resources/com/discovery/videos/Favourites.feature",
+    "tags": [
+      {
+        "name": "@Favourites",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
