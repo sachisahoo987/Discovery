@@ -9,8 +9,8 @@ Add to Path:
 % JRE_HOME %\bin
 
 2.	Maven to be downloaded and Environment variables to be set.
-M2_HOME = C:\Users\sachidananda.sahoo.NECTECHNOLOGIES\Downloads\apache-maven-3.5.4-bin
-MAVEN_HOME = C:\Users\sachidananda.sahoo.NECTECHNOLOGIES\Downloads\apache-maven-3.5.4-bin
+M2_HOME = C:\Downloads\apache-maven-3.5.4-bin
+MAVEN_HOME = C:\Downloads\apache-maven-3.5.4-bin
 Add to Path: 
 % M2_HOME %\bin
 % MAVEN_HOME %\bin
