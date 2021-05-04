@@ -11,3 +11,5 @@ Navigate to Project folder where pom.xml resides From that path open command pro
 mvn eclipse:eclipse mvn test
 
 Enable config.properties for Local and browserstack run
+
+https://github.com/sachisahoo987/Discovery/blob/master/BDDFrameworkIntigral/src/main/resources/config.properties
