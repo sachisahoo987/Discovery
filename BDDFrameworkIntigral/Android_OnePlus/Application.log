@@ -1,0 +1,12 @@
+[Android_OnePlus INFO ] 2021-05-04 13:24:06.275 BasePage:78 - login with invalidUsername
+[Android_OnePlus INFO ] 2021-05-04 13:24:07.967 BasePage:78 - password is secret_sauce
+[Android_OnePlus INFO ] 2021-05-04 13:24:08.564 BasePage:61 - press login button
+[Android_OnePlus INFO ] 2021-05-04 13:24:09.425 BasePage:104 - error text is - Username and password do not match any user in this service.
+[Android_OnePlus INFO ] 2021-05-04 13:24:10.815 BasePage:78 - login with standard_user
+[Android_OnePlus INFO ] 2021-05-04 13:24:12.473 BasePage:78 - password is invalidPassword
+[Android_OnePlus INFO ] 2021-05-04 13:24:13.539 BasePage:61 - press login button
+[Android_OnePlus INFO ] 2021-05-04 13:24:13.778 BasePage:104 - error text is - Username and password do not match any user in this service.
+[Android_OnePlus INFO ] 2021-05-04 13:24:15.016 BasePage:78 - login with standard_user
+[Android_OnePlus INFO ] 2021-05-04 13:24:16.664 BasePage:78 - password is secret_sauce
+[Android_OnePlus INFO ] 2021-05-04 13:24:17.748 BasePage:61 - press login button
+[Android_OnePlus INFO ] 2021-05-04 13:24:19.185 BasePage:104 - product page title is - PRODUCTS
